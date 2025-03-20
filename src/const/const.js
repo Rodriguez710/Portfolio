@@ -110,10 +110,6 @@ export const skills = [
     icon: IconKeys.lua,
   },
   {
-    title: "Symfony",
-    icon: IconKeys.symfony,
-  },
-  {
     title: "Vmware",
     icon: IconKeys.vmware,
   },
