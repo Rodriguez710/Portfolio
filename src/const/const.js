@@ -3,12 +3,7 @@ export const studies = [
     title: "Grado Superior Desarrollo de Aplicaciones Web",
     corporation: "IES Los Albares (Cieza-Murcia) ",
     date: "09/2024 – Actualidad",
-  },  
-  {
-    title: "Programador Web",
-    corporation: "Solución Base Software S.L (Murcia-Murcia) ",
-    date: "09/2024 – 12/2024",
-  },  
+  },
   {
     title: "Técnico Informático",
     corporation: "Hida Alimentación S.A (Mula-Murcia) ",
