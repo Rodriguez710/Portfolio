@@ -1,32 +1,37 @@
 export const studies = [
   {
     title: "Grado Superior Desarrollo de Aplicaciones Web",
-    corporation: "IES Los Albares (Cieza-Murcia) ",
+    corporation: "IES Los Albares (Cieza-Murcia)",
     date: "09/2024 – Actualidad",
   },
   {
+    title: "Programador Web",
+    corporation: "Solución Base Software S.L",
+    date: "09/2024 – 12/2024",
+  },
+  {
     title: "Técnico Informático",
-    corporation: "Hida Alimentación S.A (Mula-Murcia) ",
+    corporation: "Hida Alimentación S.A (Mula-Murcia)",
     date: "08/2024 – 09/2024",
   },  
   {
     title: "FCT Administrador de Bases de Datos SQL",
-    corporation: "Neoris (Murcia-Murcia) ",
+    corporation: "Neoris (Murcia-Murcia)",
     date: "03/2024 – 07/2024",
   },  
   {
     title: "Técnico Superior Informático.",
-    corporation: "Algoritmos, Procesos y Diseños S.A (El Palmar-Murcia) ",
+    corporation: "Algoritmos, Procesos y Diseños S.A (El Palmar-Murcia)",
     date: "07/2023 – 09/2023",
   },
   {
     title: "Grado Superior Desarrollo de Aplicaciones Multiplataforma",
-    corporation: "IES Vicente Medina (Archena-Murcia) ",
+    corporation: "IES Vicente Medina (Archena-Murcia)",
     date: "09/2022 – 07/2024",
   },
   {
     title: "FCT Técnico Microinformático",
-    corporation: "Vidal Golosinas S.A (Molina de Segura-Murcia) ",
+    corporation: "Vidal Golosinas S.A (Molina de Segura-Murcia)",
     date: "03/2022 – 07/2022",
   },
   {
