@@ -1,5 +1,10 @@
 export const studies = [
   {
+    title: "Ingeniero Informático",
+    corporation: "Fossil Natura S.L.U (Fortuna-Murcia)",
+    date: "05/2025 – Actualidad",
+  },
+  {
     title: "Grado Superior Desarrollo de Aplicaciones Web",
     corporation: "IES Los Albares (Cieza-Murcia)",
     date: "09/2024 – Actualidad",
