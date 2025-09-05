@@ -54,26 +54,24 @@ export const studies = [
 export const IconKeys = {
   html: "html",
   css: "css",
-  javaScript: "javaScript",
+  javaScript: "javascript",
   astro: "astro",
-  typeScript: "typeScript",
   git: "git",
   github: "github",
-  nodejs: "nodejs",
   python: "python",
-  angular: "angular",
   vmware: "vmware",
   qlik: "qlik",
   php: "php",
   linux: "linux",
   windows: "windows",
   lua: "lua",
-  symfony: "symfony",
+  docker: "docker",
+  odoo: "odoo",
   msql: "msql",
   mysql: "mysql",
   c: "c",
   excel: "excel",
-  angular: "angular"
+  sage: "sage"
   // here add more icon keys
 };
 
@@ -104,20 +102,16 @@ export const skills = [
     icon: IconKeys.github,
   },
   {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
-  },
-  {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
-  },
-  {
     title: "Python",
     icon: IconKeys.python,
   },
   {
-    title: "Angular",
-    icon: IconKeys.angular,
+    title: "Docker",
+    icon: IconKeys.docker,
+  },
+  {
+    title: "Odoo",
+    icon: IconKeys.odoo,
   },
   {
     title: "Php",
@@ -158,7 +152,11 @@ export const skills = [
   {
     title: "Excel",
     icon: IconKeys.excel
-  }
+  },
+  {
+    title: "Sage",
+    icon: IconKeys.sage,
+  },
 ];
 
 export const projects = [
