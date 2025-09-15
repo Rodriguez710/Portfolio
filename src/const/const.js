@@ -3,51 +3,55 @@ export const studies = [
     title: "Ingeniero Informático",
     corporation: "Fossil Natura S.L.U (Fortuna-Murcia)",
     date: "05/2025 – Actualidad",
+    type: "work",
   },
   {
     title: "Grado Superior Desarrollo de Aplicaciones Web",
     corporation: "IES Los Albares (Cieza-Murcia)",
     date: "09/2024 – Actualidad",
+    type: "study",
   },
   {
     title: "Programador Web",
     corporation: "Solución Base Software S.L",
     date: "09/2024 – 12/2024",
+    type: "work",
   },
   {
     title: "Técnico Informático",
     corporation: "Hida Alimentación S.A (Mula-Murcia)",
     date: "08/2024 – 09/2024",
+    type: "work",
   },  
   {
     title: "FCT Administrador de Bases de Datos SQL",
     corporation: "Neoris (Murcia-Murcia)",
     date: "03/2024 – 07/2024",
+    type: "work",
   },  
   {
     title: "Técnico Superior Informático.",
     corporation: "Algoritmos, Procesos y Diseños S.A (El Palmar-Murcia)",
     date: "07/2023 – 09/2023",
+    type: "work",
   },
   {
     title: "Grado Superior Desarrollo de Aplicaciones Multiplataforma",
     corporation: "IES Vicente Medina (Archena-Murcia)",
     date: "09/2022 – 07/2024",
+    type: "study",
   },
   {
     title: "FCT Técnico Microinformático",
     corporation: "Vidal Golosinas S.A (Molina de Segura-Murcia)",
     date: "03/2022 – 07/2022",
+    type: "work",
   },
   {
     title: "Grado Medio Sistemas Microinformáticos y Redes",
     corporation: "IES Francisco de Goya (Molina de Segura-Murcia)",
     date: "09/2020 – 07/2022",
-  },
-  {
-    title: "Educación Secundaria Obligatoria",
-    corporation: "Colegio El Ope (Archena-Murcia)",
-    date: "09/2026 – 07/2020",
+    type: "study",
   },
 ];
 
