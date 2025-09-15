@@ -7,19 +7,19 @@ import { studies } from "../../../const/const";
   <div class="content_studies">
     <h3 class="title-studies" id="studies">Trayectoria</h3>
     <ul class="ul-studies">
-      {
-        studies.map(({ date, title, corporation }) => (
-          <li class="li-studies">
-            <span class="circle" />
-            <div>
-              <h3>{title}</h3>
-              <p>{corporation}</p>
-              <span>{date}</span>
-            </div>
-          </li>
-        ))
-      }
-    </ul>
+    {
+      studies.map(({ date, title, corporation, type }) => (
+        <li class={`li-studies ${type === "study" ? "study-item" : "work-item"}`}>
+          <span class="circle" />
+          <div>
+            <h3>{title}</h3>
+            <p>{corporation}</p>
+            <span>{date}</span>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
   </div>
 </section>
 
@@ -44,7 +44,6 @@ import { studies } from "../../../const/const";
   }
   .title-studies {
     font-size: 27px;
-    color: #f6f6f9;
     text-align: left;
     width: 100%;
     font-weight: 800;
@@ -58,7 +57,6 @@ import { studies } from "../../../const/const";
   }
   .li-studies {
     padding: 0px 20px;
-    color: #f6f6f9;
     border-left: 1px solid #f6f6f9;
     list-style: none;
     position: relative;
@@ -82,5 +80,19 @@ import { studies } from "../../../const/const";
   }
   .li-studies span {
     font-size: 13px;
+  }
+  .study-item {
+    color: #000; /* texto en negro */
+    border-left: 1px solid #000;
+    }
+  .study-item .circle {
+    background-color: #000;
+  }
+  .work-item {
+    color: #f6f6f9; /* texto en blanco */
+    border-left: 1px solid #f6f6f9;
+  }
+  .work-item .circle {
+    background-color: #f6f6f9;
   }
 </style>
