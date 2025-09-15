@@ -216,6 +216,32 @@ export const projects = [
       {
         icon: IconKeys.lua,
       },
+      {
+        icon: IconKeys.mysql,
+      },
+    ],
+  },
+  {
+    img: "../../../img/ciezaactiva.webp",
+    title: "CiezaActiva",
+    link: "https://github.com/Rodriguez710/CiezaActiva",
+    description: `TFG desarrollado con PHP, HTML, CSS y JavaScript que se basa en una web de reservas deportivas con usuarios, carrito de la compra y proceso de pago.`,
+    technologies: [
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.css,
+      },
+      {
+        icon: IconKeys.javaScript,
+      },
+      {
+        icon: IconKeys.php,
+      },
+      {
+        icon: IconKeys.mysql,
+      },
     ],
   },
     ]
