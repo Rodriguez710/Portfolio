@@ -168,7 +168,10 @@ export const projects = [
     img: "../../../img/comedorconecta.webp",
     title: "Comedor Conecta",
     link: "https://github.com/Rodriguez710/Comedor-Conecta",
-    description: `Proyecto FullStack de una aplicación para comedores escolares donde podemos añadir alumnos y madres por curso o importar directamente desde un fichero CSV.  `,
+    description: `Desarrollo de aplicación de escritorio para comedores escolares:
+                  Registro de calidad de comida por estudiante.
+                  Almacenamiento de datos en MySQL.
+                  Envío automático de reportes a padres de familia mediante correo usando API de Google. `,
     technologies: [
       {
         icon: IconKeys.python,
