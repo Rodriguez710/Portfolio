@@ -110,6 +110,10 @@ export const skills = [
     icon: IconKeys.python,
   },
   {
+    title: "Java",
+    icon: IconKeys.java,
+  },
+  {
     title: "Docker",
     icon: IconKeys.docker,
   },
