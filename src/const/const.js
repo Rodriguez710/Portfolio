@@ -63,6 +63,7 @@ export const IconKeys = {
   git: "git",
   github: "github",
   python: "python",
+  java: "java",
   vmware: "vmware",
   qlik: "qlik",
   php: "php",
