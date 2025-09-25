@@ -64,6 +64,7 @@ export const IconKeys = {
   github: "github",
   python: "python",
   java: "java",
+  powerbi: "powerbi",
   vmware: "vmware",
   qlik: "qlik",
   php: "php",
@@ -113,6 +114,10 @@ export const skills = [
   {
     title: "Java",
     icon: IconKeys.java,
+  },
+  {
+    title: "Power BI",
+    icon: IconKeys.powerbi,
   },
   {
     title: "Docker",
