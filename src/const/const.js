@@ -179,9 +179,9 @@ export const projects = [
     title: "Comedor Conecta",
     link: "https://github.com/Rodriguez710/Comedor-Conecta",
     description: `Desarrollo de aplicación de escritorio para comedores escolares:
-                  Registro de calidad de comida por estudiante.
+                  Registro de calidad de comida.
                   Almacenamiento de datos en MySQL.
-                  Envío automático de reportes a padres de familia mediante correo usando API de Google. `,
+                  Envío automático de reportes usando API de Google. `,
     technologies: [
       {
         icon: IconKeys.python,
@@ -195,7 +195,7 @@ export const projects = [
     img: "../../../img/dts.webp",
     title: "Compras Delegadas DTS",
     link: "https://github.com/Rodriguez710/Compras-delegadas-DTS-PRO-",
-    description: `Desarrollo de una DTS en Microsoft SQL Server con C# para procesar datos de Excel y filtrarlos automáticamente en una tabla SQL.`,
+    description: `Desarrollo de paquetes SSIS/DTS en SQL Server con C# para procesar datos de Excel y cargarlos en tabla SQL. Implementación de validaciones y reglas de negocio para garantizar la calidad de los datos.`,
     technologies: [
       {
         icon: IconKeys.msql,
